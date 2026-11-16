@@ -1,7 +1,7 @@
 # NavIC CBTMS Backend
 
 This repository contains the server side of NavIC, a college bus tracking prototype. FastAPI provides the REST and WebSocket APIs; SQLAlchemy persists fleet and telemetry records; a newline-delimited JSON TCP receiver accepts device messages. A simulator is included for development because no IVTD hardware is connected, and simulator telemetry stays labelled as simulated.
-
+---
 ## Requirements
 
 Python 3.11+ and pip. SQLite is the local default; no external database service is required for a basic run.
